@@ -7,4 +7,4 @@ pointers: pointers.o
 	as $< -o $@
 
 clean:
-	rm -vf *.o
+	rm -vf *.o pointers
